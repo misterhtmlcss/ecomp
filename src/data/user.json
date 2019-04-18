@@ -1,0 +1,77 @@
+{
+  "usersList": [
+    {
+      "cuid": "002",
+      "username": "Joe Swanson",
+      "accountList": [
+        { "accountId": "1010" },
+        { "accountId": "5500" }
+      ]
+    },
+    {
+      "cuid": "219",
+      "username": "John Shark",
+      "accountList": []
+    },
+    {
+      "cuid": "504",
+      "username": "Glenn Quagmire",
+      "accountList": [
+        { "accountId": "2001" }
+      ]
+    },
+    {
+      "cuid": "123",
+      "username": "Peter Griffin",
+      "accountList": [
+        { "accountId": "0123" }
+      ]
+    },
+    {
+      "cuid": "456",
+      "username": "Lois Griffin",
+      "accountList": [
+        { "accountId": "0123" },
+        { "accountId": "0456" }
+      ]
+    },
+    {
+      "cuid": "777",
+      "username": "Stewie Griffin",
+      "accountList": [
+        { "accountId": "1234" }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "accountId": "1010",
+      "balance": 7425,
+      "cuidHolders": ["002"]
+    },
+    {
+      "accountId": "5500",
+      "balance": 15000,
+      "cuidHolders": ["002"]
+    },
+    { "accountId": "1234",
+      "balance": 100,
+      "cuidHolders": ["777"]
+    },
+    {
+      "accountId": "2001",
+      "balance": 35000,
+      "cuidHolders": ["504"]
+    },
+    {
+      "accountId": "0123",
+      "balance": 150,
+      "cuidHolders": ["123","456"]
+    },
+    {
+      "accountId": "0456",
+      "balance": 65000,
+      "cuidHolders": ["456"]
+    }
+  ]
+}
